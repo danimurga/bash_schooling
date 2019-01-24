@@ -1,0 +1,15 @@
+#############################################################
+#
+# Exercise 1 bash scripting schooling
+#
+#############################################################
+
+1 - Desde del dpto de LAN nos facilitan una lista en formato csv que incluye las entradas DNS que tenemos que agregar
+a nuestras maquinas linux para realizar la resolucion para estos dominios de manera local.
+
+- El formato del fichero es csv con los campos "alias","hostname","ipaddress".
+- Tenemos que crear un script para actualizar el fichero /etc/hosts con las nuevas entradas que nos han facilitado.
+- El script debe recibir el fichero que nos facilita LAN  como parametro
+- El fichero se encuetra en ./files/ex1_domains.csv
+
+

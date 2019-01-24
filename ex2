@@ -1,0 +1,16 @@
+#############################################################
+#
+# Exercise 2 bash scripting schooling
+#
+#############################################################
+
+1 - Partiendo del fichero /etc/hosts que hemos creado anteriormente, necesitamos un script que compruebe la conectividad
+contra cada uno de los hosts definidos en el fichero. El script tiene que generar un log donde registremos la siguiente 
+info:
+
+fecha---hostname---resultado conectividad
+
+ejemplo: 
+
+24/01/2019 --- pop1-os.localdomain5 --- OK
+24/01/2019 --- pop1-os.localdomain7 --- NOK
